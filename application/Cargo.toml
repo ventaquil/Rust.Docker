@@ -1,0 +1,6 @@
+[package]
+name = "rust-docker"
+version = "0.0.0"
+authors = ["ventaquil <ventaquil@outlook.com>"]
+
+[dependencies]

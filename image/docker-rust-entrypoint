@@ -1,0 +1,15 @@
+#!/bin/bash
+
+function handler {
+    echo "Exiting..."
+
+    exit
+}
+
+trap handler SIGINT
+
+while true
+do
+    sleep 0
+done
+

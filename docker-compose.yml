@@ -1,0 +1,9 @@
+version: "3"
+services:
+  rust:
+    build: "./image"
+    container_name: "rust"
+    volumes:
+      - "./application:/application"
+      - "./cargo:/root/.cargo"
+

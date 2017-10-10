@@ -1,0 +1,9 @@
+cargo/*
+!cargo/.gitkeep
+
+application/target/
+
+application/Cargo.lock
+
+application/**/*.rs.bk
+
