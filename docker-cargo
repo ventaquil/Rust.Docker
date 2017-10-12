@@ -6,4 +6,4 @@ function handler {
 
 trap handler INT
 
-docker run --rm --user "$(id -u)":"$(id -g)" -it -v $(pwd)/cargo:/root/.cargo -v $(pwd)/application:/application -w /application rust cargo $@
+docker run --rm --user "$(id -u)":"$(id -g)" -it -v $(pwd)/cargo:/usr/local/cargo/registry/ -v $(pwd)/application:/application -w /application rust cargo $@
