@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+docker run -it -v $(pwd)/cargo:/root/.cargo -v $(pwd)/application:/application -w /application rust cargo $@
